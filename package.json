@@ -1,0 +1,24 @@
+{
+  "name": "danger-checkstyle-format",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test_babel": "mocha --compilers js:babel-core/register"
+  },
+  "author": "takeru hayasaka",
+  "license": "MIT",
+  "dependencies": {
+    "danger": "^3.7.14",
+    "fs": "^0.0.1-security",
+    "xml2js": "^0.4.19",
+    "xml2json": "^0.11.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
